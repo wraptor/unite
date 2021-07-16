@@ -1,6 +1,6 @@
 name: unite
 description: A new Flutter package,waiting for perfection.
-version: 0.0.1-empty
+version: 0.0.1
 homepage: https://github.com/wraptor
 repository: https://github.com/wraptor/unite
 
@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_easyloading: ^3.0.0
+  shared_preferences: ^2.0.6
+  #dio网络请求 https://github.com/flutterchina/dio/blob/master/README-ZH.md
+  dio: ^4.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
